@@ -267,12 +267,12 @@ html {
     margin-right: 1rem;
   }
   .header .nav-desktop .register {
-    border: 3px solid var(--medium-gray);
+    border: 2px solid var(--medium-gray);
     border-radius: 20px;
     transition: border 0.3s;
   }
   .header .nav-desktop .register:hover {
-    border: 3px solid hsl(0, 0%, 5%);
+    border: 2px solid hsl(0, 0%, 5%);
   }
   .header__img {
     background-image: url(../images/image-hero-desktop.png);
