@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header class="header">
+			<nav class="nav-mobile">
+				<a href="#" class="nav-mobile__company-logo"
+					><img src="./images/logo.svg" alt="snap logo"
+				/></a>
+				<img
+					src="./images/icon-menu.svg"
+					alt="menu button"
+					class="nav-mobile__burger-btn burger-btn"
+				/>
+				<div class="nav-mobile__menu-container">
+					<div class="nav-mobile__menu-shadow"></div>
+					<div class="nav-mobile__menu-items">
+						<ul class="menu">
+							<li>
+								<a class="nav-mobile__menu-item features"
+									>Features
+									<img
+										class="nav-mobile__arrow-down"
+										src="./images/icon-arrow-down.svg"
+										alt=""
+								/></a>
+								<ul class="nav-mobile__dropdown features-drop">
+									<li>
+										<a href="#" class="nav-mobile__dropdown-item"
+											><img
+												src="./images/icon-todo.svg"
+												alt=""
+												class="nav-mobile__dropdown-icon"
+											/>Todo List</a
+										>
+									</li>
+									<li>
+										<a href="#" class="nav-mobile__dropdown-item"
+											><img
+												src="./images/icon-calendar.svg"
+												alt=""
+												class="nav-mobile__dropdown-icon"
+											/>Calendar</a
+										>
+									</li>
+									<li>
+										<a href="#" class="nav-mobile__dropdown-item"
+											><img
+												src="./images/icon-reminders.svg"
+												alt=""
+												class="nav-mobile__dropdown-icon"
+											/>Reminders</a
+										>
+									</li>
+									<li>
+										<a href="#" class="nav-mobile__dropdown-item"
+											><img
+												src="./images/icon-planning.svg"
+												alt=""
+												class="nav-mobile__dropdown-icon"
+											/>Planning</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a class="nav-mobile__menu-item company"
+									>Company<img
+										class="nav-mobile__arrow-down"
+										src="./images/icon-arrow-down.svg"
+										alt=""
+								/></a>
+								<ul class="nav-mobile__dropdown company-drop">
+									<li>
+										<a href="#" class="nav-mobile__dropdown-item">History</a>
+									</li>
+									<li>
+										<a href="#" class="nav-mobile__dropdown-item">Our team</a>
+									</li>
+									<li>
+										<a href="#" class="nav-mobile__dropdown-item">Planning</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#" class="nav-mobile__menu-item">Careers</a></li>
+							<li><a href="#" class="nav-mobile__menu-item">About</a></li>
+						</ul>
+						<a href="#" class="nav-mobile__menu-item login">Login</a>
+						<a href="#" class="nav-mobile__menu-item register">Register</a>
+					</div>
+				</div>
+			</nav>
+			<nav class="nav-desktop">
+				<div class="nav-desktop__container">
+					<a href="#" class="nav-desktop__company-logo"
+						><img src="./images/logo.svg" alt=""
+					/></a>
+					<ul class="nav-desktop__menu">
+						<li>
+							<a href="#" class="nav-desktop__menu-item">Features<img class="arrow-down" src="./images/icon-arrow-down.svg" alt=""></a>
+							<ul class="nav-desktop__dropdown features-drop">
+								<li>
+									<a
+										href="#"
+										class="nav-desktop__dropdown-item nav-desktop__menu-item"
+										><img
+											src="./images/icon-todo.svg"
+											alt=""
+											class="nav-desktop__dropdown-icon"
+										/>Todo List</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										class="nav-desktop__dropdown-item nav-desktop__menu-item"
+										><img
+											src="./images/icon-calendar.svg"
+											alt=""
+											class="nav-desktop__dropdown-icon"
+										/>Calendar</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										class="nav-desktop__dropdown-item nav-desktop__menu-item"
+										><img
+											src="./images/icon-reminders.svg"
+											alt=""
+											class="nav-desktop__dropdown-icon"
+										/>Reminders</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										class="nav-desktop__dropdown-item nav-desktop__menu-item"
+										><img
+											src="./images/icon-planning.svg"
+											alt=""
+											class="nav-desktop__dropdown-icon"
+										/>Planning</a
+									>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="nav-desktop__menu-item">Company<img class="arrow-down" src="./images/icon-arrow-down.svg" alt=""></a></a>
+							<ul class="nav-desktop__dropdown company-drop">
+								<li>
+									<a
+										href="#"
+										class="nav-desktop__dropdown-item nav-desktop__menu-item"
+										>History</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										class="nav-desktop__dropdown-item nav-desktop__menu-item"
+										>Our team</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										class="nav-desktop__dropdown-item nav-desktop__menu-item"
+										>Planning</a
+									>
+								</li>
+							</ul>
+						</li>
+						<li><a href="#" class="nav-desktop__menu-item">Careers</a></li>
+						<li><a href="#" class="nav-desktop__menu-item">About</a></li>
+					</ul>
+				</div>
+				<div class="nav-desktop__login-container">
+					<a href="#" class="nav-desktop__menu-item login">Login</a>
+					<a href="#" class="nav-desktop__menu-item register">Register</a>
+				</div>
+			</nav>
+			<div class="wrapper content-container">
+				
+				<div class="header__img"></div>
+				<div class="header__text">
+					<h1 class="header__heading"><span>Make</span> remote work</h1>
+					<p class="header__description">
+						Get your team in sync, no matter your location. Streamline
+						processes, create team rituals, and watch productivity soar.
+					</p>
+					<button class="header__button">Learn more</button>
+					<div class="header__clients">
+						<img
+							class="logo"
+							src="./images/client-databiz.svg"
+							alt="databiz logo"
+						/>
+						<img
+							class="logo"
+							src="./images/client-audiophile.svg"
+							alt="audiophile logo"
+						/>
+						<img class="logo" src="./images/client-meet.svg" alt="meet logo" />
+						<img
+							class="logo"
+							src="./images/client-maker.svg"
+							alt="maker logo"
+						/>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Jakub Kucharski</a>.
+		</div>
+
+		<script src="./js/main.js"></script>
+	</body>
+</html>
