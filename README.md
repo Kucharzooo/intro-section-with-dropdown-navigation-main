@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-sassscss-bem-flexbox-js-J6_ibEFUXW)
+- Live Site URL: [Live](https://kucharzooo.github.io/intro-section-with-dropdown-navigation-main/)
 
 ### Built with
 
