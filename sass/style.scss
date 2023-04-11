@@ -275,12 +275,12 @@ html {
 				margin-right: 1rem;
 			}
 			.register {
-				border: 3px solid var(--medium-gray);
+				border: 2px solid var(--medium-gray);
 				border-radius: 20px;
 				transition: border 0.3s;
 			}
 			.register:hover {
-				border: 3px solid hsl(0, 0%, 5%);
+				border: 2px solid hsl(0, 0%, 5%);
 			}
 		}
 		&__img {
