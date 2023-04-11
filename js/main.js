@@ -35,13 +35,9 @@ window.addEventListener('click', (e) => {
 	if (e.target.classList.contains('shadow-active')) {
 		nav.classList.remove('nav-active');
 		navShadow.classList.remove('shadow-active');
+		navBtn.setAttribute('src', './images/icon-menu.svg');
 	}
 });
 dropdownItems.forEach((item) =>
 	item.addEventListener('click', handleDropdownMobile)
-);
-arrowDown.forEach((arrow) =>
-	arrow.addEventListener('click', (e) => {
-		e.stopPropagation();
-	})
 );
